@@ -1,0 +1,129 @@
+/* font geral */
+
+* {
+  font-family: "Jetbrains Mono";
+}
+
+/* sidepanel */
+
+.sidepanel {
+  width: 25vw;
+  min-height: 100vh;
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 16px 16px;
+}
+
+.avatarContainer {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.avatarContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statNumber {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  color: #cccccc;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #555555;
+  width: 100%;
+  margin: 0;
+}
+
+.navSection {
+  flex: 1;
+  padding: 12px 16px;
+}
+
+.activitiesButton {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 8px 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.activitiesButton img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #aaaaaa;
+  margin: 0;
+}
+
+/* header login */
+
+.headerBut {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 0;
+  padding: 12px 16px 0 16px;
+  box-sizing: border-box;
+}
+
+.loginBut {
+  margin-left: auto;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+}
